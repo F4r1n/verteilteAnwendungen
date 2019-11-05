@@ -20,6 +20,12 @@ class Chat:
       message.print()
       self.chatMessages.append(message)
 
+      return self.chatMessages.index(message)
+
+  def removeMessage(self, message, messageIndex):
+      self.chatMessages.pop(messageIndex)
+      message.delete()
+
   def removeUser(self, user):
     userIndex = self.userList.index(user.name)
     self.userList.pop(userIndex)

@@ -6,7 +6,7 @@ class ChatMessage:
         self.time = datetime.datetime.now()
 
     def delete(self):
-        del self
+        self.message = ""
 
     def print(self):
         print("%s: \"%s\" sent by %s" %
