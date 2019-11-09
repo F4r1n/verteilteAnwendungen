@@ -20,7 +20,7 @@ class Chat:
       message.print()
       self.chatMessages.append(message)
 
-      return self.chatMessages.index(message)
+      return [message, self.chatMessages.index(message)]
 
   def removeMessage(self, message, messageIndex):
       self.chatMessages.pop(messageIndex)
