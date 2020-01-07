@@ -1,0 +1,3 @@
+Keine Schwieirgkeiten.
+
+Programmiersprache die nicht typisiert ist und somit das Problem umgehen. Anonsten bieten Programmiersprachen wie golang die Möglichkeit einen json als Objekt einzulesen und mapped Datentypen weitesgehend selbstständig mapped.

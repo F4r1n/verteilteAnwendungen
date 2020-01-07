@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="flight">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pilot" type="xs:string"/>
+        <xs:element name="coPilot" type="xs:string"/>
+        <xs:element name="flightID" type="xs:string"/>
+        <xs:element name="fuel" type="xs:decimal"/>
+        <xs:element name="origin">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="airport" type="xs:string"/>
+              <xs:element name="startTime" type="xs:time"/>
+              <xs:element name="day" type="xs:date"/>
+              <xs:element name="country" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="destination">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="airport" type="xs:string"/>
+              <xs:element name="eta" type="xs:time"/>
+              <xs:element name="day" type="xs:date"/>
+              <xs:element name="country" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="done" type="xs:boolean"/>
+        <xs:element name="seatsTotal" type="xs:integer"/>
+        <xs:element name="seatsFree" type="xs:integer"/>
+        <xs:element name="passengers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="customerID" type="xs:string"/>
+              <xs:element name="age" type="xs:positiveInteger"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="crew">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="employeeID" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="flightId" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

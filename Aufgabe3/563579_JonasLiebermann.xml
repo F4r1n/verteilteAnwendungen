@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flight xsi:noNamespaceSchemaLocation="schema.xsd" flightId="string" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <pilot>Jonas Liebermann</pilot>
+    <coPilot>Victor Pansegrau</coPilot>
+    <flightID>afa</flightID>
+    <fuel>2850.2349058</fuel>
+    <origin>
+        <airport>TXL</airport>
+        <startTime>13:41:47.99</startTime>
+        <day>2019-01-01</day>
+        <country>Germany</country>
+    </origin>
+    <destination>
+        <airport>MIA</airport>
+        <eta>05:34:35.30</eta>
+        <day>2019-01-02</day>
+        <country>USA</country>
+    </destination>
+    <done>1</done>
+    <seatsTotal>1500</seatsTotal>
+    <seatsFree>1499</seatsFree>
+    <passengers>
+        <name>Sanna Liebermann</name>
+        <customerID>65q4wd6</customerID>
+        <age>17</age>
+    </passengers>
+    <crew>
+        <name>Someone Else</name>
+        <employeeID>awd654awd</employeeID>
+    </crew>
+</flight>
