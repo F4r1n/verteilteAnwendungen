@@ -1,4 +1,3 @@
-import re
 from collections import Counter
 
 # Tally occurrences of words in a list

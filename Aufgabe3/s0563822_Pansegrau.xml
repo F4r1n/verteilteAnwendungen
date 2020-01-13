@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<s0563822_Pansegrau xmlns="https://www.w3schools.com"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <order orderid="11233">
+		<passengers>
+			<adultCount>2</adultCount>
+			<childCount>2</childCount>
+		</passengers>
+		<surname>Muller</surname>
+		<firstName>Thomas</firstName>
+		<age>30</age>
+		<airline>Lufthansa</airline>
+		<departureAirport>TXL</departureAirport>
+		<destinationAirport>LHR</destinationAirport>
+		<departureDate>2019-06-13</departureDate>
+		<arrivalDate>2019-06-13</arrivalDate>
+		<duration>02:00:00</duration>
+		<price>199.99</price>
+		<maxprice>1000.39</maxprice>
+		<refundable>True</refundable>
+		<adress adressid="1234522">
+			<street>Berliner Strasse</street>
+			<houseNumber>11a</houseNumber>
+			<city>Berlin</city>
+		</adress>
+	</order>
+	<order orderid="33211">
+		<passengers>
+			<adultCount>1</adultCount>
+			<childCount>3</childCount>
+		</passengers>
+		<surname>Mustermann</surname>
+		<firstName>Max</firstName>
+		<age>34</age>
+		<airline>Air France</airline>
+		<departureAirport>SXF</departureAirport>
+		<destinationAirport>CDG</destinationAirport>
+		<departureDate>2019-06-14</departureDate>
+		<arrivalDate>2019-06-14</arrivalDate>
+		<duration>01:30:00</duration>
+		<price>100.00</price>
+		<maxprice>300.00</maxprice>
+		<refundable>False</refundable>
+		<adress adressid="323212">
+			<street>Lipaer Strasse</street>
+			<houseNumber>20</houseNumber>
+			<city>Berlin</city>
+		</adress>
+	</order>
+</s0563822_Pansegrau>
