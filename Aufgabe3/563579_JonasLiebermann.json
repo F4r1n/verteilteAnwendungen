@@ -1,5 +1,5 @@
 {
-  "flight": {
+  "flight1": {
     "pilot": "Jonas Liebermann",
     "coPilot": "Victor Pansegrau",
     "flightID": "afa",
@@ -30,6 +30,40 @@
       {
         "name": "Someone Else",
         "employeeID": "awd654awd"
+      }
+    ]
+  },
+  "flight2": {
+    "pilot": "Someone",
+    "coPilot": "Someone Else",
+    "flightID": "uhhu",
+    "fuel": "7643.7637643",
+    "origin": {
+      "airport": "MIA",
+      "startTime": "16:51:47.99",
+      "day": "2020-01-01",
+      "country": "Germany"
+    },
+    "destination": {
+      "airport": "TXL",
+      "eta": "09:45:35.30",
+      "day": "2020-01-02",
+      "country": "USA"
+    },
+    "done": "0",
+    "seatsTotal": "1500",
+    "seatsFree": "1499",
+    "passengers": [
+      {
+        "name": "Yet Someone Else",
+        "customerID": "iuhf67",
+        "age": "12"
+      }
+    ],
+    "crew": [
+      {
+        "name": "No names left",
+        "employeeID": "uhi76fe"
       }
     ]
   }
